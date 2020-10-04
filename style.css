@@ -1,0 +1,81 @@
+
+html,body,div,footer,header{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+
+/*-- start editing from here --*/
+
+/*-- end reset --*/
+body {
+    background: url(images/bg.jpg)repeat 0px 0px;
+    background-attachment: fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover; 
+	background-size:cover;
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #ffeb3b;
+    font-weight: 80;
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 3px;
+}
+/*-- main --*/
+.mainw3-agile{
+    padding: 2em 0 0;
+    
+}
+.me
+{
+    font-family: 'Lobster Two', cursive;
+          font-weight: 100;  
+}
+.main-agileinfo {
+    width: 50%;
+    margin: 2em auto 2em;
+    background: rgba(136, 136, 136, 0.36);
+    padding: 1.5em;
+	-webkit-box-shadow: -8px 8px 7px 0px rgb(3, 3, 3);
+	-moz-box-shadow: -8px 8px 7px 0px rgb(3, 3, 3); 
+    box-shadow: -8px 8px 7px 0px rgb(3, 3, 3);
+} 
+.w3pay-right{
+    width: 100%;
+    background-size: cover; 
+    min-height: 425px;
+	text-align: center; 
+	position:relative;
+}
+.card-details{
+    font-family: 'Lobster Two', cursive;
+    font-size: 20px;  
+	width: 100%;
+	text-align: left;
+    margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	-webkit-transition: 300ms ease;
+	-moz-transition: 300ms ease; 
+	transition: 300ms ease;
+} 
+
+.w3pay-right input[type="submit"] {
+    outline: none;
+    color: #fff;
+    padding: 0.6em 1em;
+    font-size: 1em;
+    -webkit-appearance: none;
+    background: #16a085;
+    border: 2px solid #16a085;
+    width: 50%;
+    cursor: pointer;
+    margin: 0;
+	-webkit-transition:.5s all;
+	-moz-transition:.5s all; 
+	-o-transition:.5s all;
+	-ms-transition:.5s all;
+	transition:.5s all;
+}
+.w3pay-right input[type="submit"]:hover {
+    background: #FFEB3B;
+    color: #16a085;
+}
+
